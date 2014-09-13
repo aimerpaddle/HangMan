@@ -126,6 +126,11 @@ public class Hangman {
 		return contains;
 	}
 
+	/**
+	 * This is the main entry point of the application. It initializes the Hangman
+	 * application. It also chooses the word to guess, and sets the number of lives
+	 * before starting the game.
+	 */
 	public static void main(String[] args) {
 
 		Hangman hm = new Hangman();
