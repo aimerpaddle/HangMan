@@ -129,8 +129,8 @@ public class Hangman {
 	public static void main(String[] args) {
 
 		Hangman hm = new Hangman();
-		hm.setWordToGuess("Whiskey");
-		hm.setNumberOfLives(6);
+		hm.setWordToGuess("Headphones");
+		hm.setNumberOfLives(10);
 
 		hm.playGame();
 
